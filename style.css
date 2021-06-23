@@ -1,0 +1,133 @@
+
+  
+  html {
+      color: black;
+      font-family: 'Raleway', 'Arial', sans-serif;
+      font-weight: 400;
+      font-size: 16px;
+      text-rendering: optimizeLegibility;
+      }
+  
+  
+  h1 {
+      font-family: Impact, Arial, sans-serif;
+      color: darkslateblue;
+    font-size: 300%;
+     text-transform: uppercase;
+     letter-spacing: 1px;
+  }
+  
+  h2 {
+      font-family: Tahoma, Arial, sans-serif;
+    }
+  
+
+  .gallery {
+      list-style: none;
+      width: 100%;
+  }
+  
+  .meme-img{
+      display: inline-block;
+      margin: 1%;
+      width: 500px;
+      height: auto;
+      text-align: center;
+      position: relative;
+      opacity: 1;
+      padding: 135x;
+  }
+  
+  img {width: 500px;}
+  
+  .meme-img:hover {opacity: 0.1;}
+  
+  .red-cross {
+      width: 500px;
+      height: 250px;
+      content: "X";
+      position: absolute;
+      top: 50%;
+      left:50%;
+      transform: translate(-50%, -66%);
+      font-weight: 700;
+      text-align: center;
+      font-size: 1500%;
+      opacity: 0;
+  }
+  
+  .red-cross:hover {
+      opacity: 1.6;
+      z-index: 20;
+  }
+  
+  .text {
+      font-family: Impact, Arial, sans-serif;
+      width: 500px;
+      font-size: 250%;
+      line-height: 1.1em;
+      letter-spacing: 1.5px;
+      color: black;
+     -webkit-text-fill-color: white; 
+     -webkit-text-stroke-width: 1.7px;
+     -webkit-text-stroke-color: black;
+     text-transform: uppercase;
+     overflow-wrap: break-word;
+    word-wrap: break-word;
+    hyphens: auto;
+    opacity: 1;
+  }
+  
+  .text:hover {opacity: 0.6;}
+  
+  .top {
+      position: absolute;
+      top: 0;
+      z-index: 9;
+      max-height: 50%;
+  }
+  
+  .bottom {
+      position: absolute;
+      bottom: 0;
+      z-index: 9;
+      max-height: 50%;
+  }
+  body{
+      background-color:lavender;
+  }
+  .center {
+    margin: auto;
+    width: 60%;
+    border: 3px solid pink;
+    padding: 10px;
+    text-align: center;
+  }
+  input[type=text], select {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+  input[type=url], select {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+  .button {
+    background-color: darkslateblue;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: right;
+    display: inline-block;
+    font-size: 16px;
+  }
+  
